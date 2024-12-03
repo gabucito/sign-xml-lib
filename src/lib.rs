@@ -1,5 +1,5 @@
 mod ted;
 pub mod sign;
-mod utils;
+pub mod utils;
 mod enums;
 mod models;
