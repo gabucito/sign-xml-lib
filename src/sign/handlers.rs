@@ -3,10 +3,8 @@ use std::cmp::min;
 
 use crate::{
     enums::SignatureType,
-    models::{
-        key::KeyPairCert,
-        signature::{signed_info::SignedInfo, Signature},
-    },
+    key::KeyPairCert,
+    models::signature::{signed_info::SignedInfo, Signature},
     utils::digest::get_digest_value,
 };
 

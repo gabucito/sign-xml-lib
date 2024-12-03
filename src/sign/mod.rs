@@ -1,7 +1,7 @@
 use handlers::get_signature;
 
 use crate::{
-    enums::SignatureType, models::key::KeyPairCert, utils::insert_element::insert_after_element,
+    enums::SignatureType, key::KeyPairCert, utils::insert_element::insert_after_element
 };
 
 mod handlers;

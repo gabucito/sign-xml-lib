@@ -6,7 +6,7 @@ use openssl::{
     sign::Signer,
 };
 
-use crate::{models::key::KeyPairCert, utils::encode::encode};
+use crate::{key::KeyPairCert, utils::encode::encode};
 
 use signed_info::SignedInfo;
 
